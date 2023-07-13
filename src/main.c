@@ -14,6 +14,7 @@
 #include "util.h"
 #include "scores.h"
 #include "color.h"
+#include "missing_string.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,6 +26,7 @@
 #include <string.h>
 #include <errno.h>
 #include <time.h>
+
 
 const char *short_options = "?hvlt:Tms:c:CS";
 

@@ -8,6 +8,8 @@
 
 #include "util.h"
 
+#include "missing_string.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -19,6 +21,7 @@
 #elif defined(_WIN32)
 #include <io.h>
 #endif
+
 
 int file_exists(const char *path) {
   FILE *f = fopen(path, "r");

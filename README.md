@@ -7,8 +7,9 @@ A small collection of solitaire games implemented in C using ncurses.
 ## Usage
 
 Compile and run:
-```
-cmake .
+```sh
+#cmake .
+cmake -DCURSES_INCLUDE_PATH=/opt/homebrew/opt/ncurses/include .
 make
 ./csol
 ```

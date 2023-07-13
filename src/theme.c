@@ -11,9 +11,12 @@
 #include "util.h"
 #include "rc.h"
 
+#include "missing_string.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
 
 struct dir_list {
   char *dir;

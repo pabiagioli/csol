@@ -13,6 +13,7 @@
 #include "util.h"
 #include "scores.h"
 #include "error.h"
+#include "missing_string.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,6 +30,7 @@
 #endif
 
 #define BUFFER_INC 32
+
 
 typedef enum {
   K_END_OF_BLOCK,

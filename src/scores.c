@@ -12,10 +12,14 @@
 #include "csv.h"
 #include "error.h"
 
+#include "missing_string.h"
+
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
 #include <string.h>
+
+
 
 int scores_enabled = 0;
 char *scores_file_path = NULL;
